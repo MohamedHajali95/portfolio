@@ -14,11 +14,3 @@ Customized personal portfolio website built from the vCard template.
 
 1. E-Commerce Sales - Advanced Interactive Dashboard
 2. Superstore Sales Analytics Dashboard
-
-## Run locally
-
-Open `index.html` in a browser.
-
-## Publish
-
-Upload the folder to GitHub Pages, Netlify, or Vercel.
