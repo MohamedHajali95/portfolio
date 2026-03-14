@@ -1,174 +1,116 @@
-# Mohamed HagAli — Data Analyst Portfolio
+# Mohamed HagAli Portfolio
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Role-Data%20Analyst-0ea5e9?style=for-the-badge" alt="Role badge" />
-  <img src="https://img.shields.io/badge/Focus-Power%20BI%20%7C%20SQL%20%7C%20Python-111827?style=for-the-badge" alt="Focus badge" />
-  <img src="https://img.shields.io/badge/Status-Portfolio%20Website-22c55e?style=for-the-badge" alt="Status badge" />
-</p>
+[![Live Site](https://img.shields.io/badge/Live%20Site-Visit%20Portfolio-0ea5e9?style=for-the-badge)](https://mohamedhajali95.github.io/portfolio/)
+[![GitHub Pages](https://img.shields.io/badge/Deployed%20With-GitHub%20Pages-222222?style=for-the-badge&logo=github)](https://mohamedhajali95.github.io/portfolio/)
+[![Role](https://img.shields.io/badge/Focus-Data%20Analytics-1d4ed8?style=for-the-badge)](https://mohamedhajali95.github.io/portfolio/)
 
-A premium personal portfolio website for **Mohamed HagAli**, built to present a clear transition into **Data Analytics** and **Business Intelligence** through real-world operations experience, business-focused reporting, and selected Power BI projects.
+## Live Preview
+
+Visit the portfolio here:  
+**https://mohamedhajali95.github.io/portfolio/**
 
 ---
 
 ## About This Portfolio
 
-This website is designed to position Mohamed HagAli as a **Data Analyst / BI-focused professional** with a practical background in:
+This repository contains my personal portfolio website, built to present my background, experience, certifications, and selected analytics projects as I transition into a **Data Analyst** career path.
 
-- workflow optimization
-- operations execution
-- client delivery
-- business reporting
-- dashboard storytelling
-- decision-ready analysis
+The portfolio highlights my practical background in:
 
-Rather than presenting analytics as a separate learning path, the portfolio connects prior operational experience with modern reporting and data-driven decision support.
+- Data Analytics
+- Business Intelligence Reporting
+- Power BI Dashboard Development
+- SQL and Python-based analysis
+- Workflow Optimization and Business-Focused Problem Solving
 
----
-
-## Live Preview
-
-> Add your deployed portfolio link here after publishing to GitHub Pages or another hosting platform.
-
-**Suggested format:**
-
-```text
-https://your-username.github.io/your-repo-name/
-```
+My goal with this portfolio is to present a professional and clear view of my work, combining my operations and technical background with my growing specialization in analytics.
 
 ---
 
-## Featured Work
+## Featured Projects
 
-The portfolio highlights four Power BI projects, with two featured dashboards that include both GitHub and live dashboard links.
+### 1. E-Commerce Sales - Advanced Interactive Dashboard
+An advanced multi-page Power BI dashboard built on e-commerce transactional data to support performance tracking, time-based comparison, and executive reporting.
 
-### Featured Projects
+**Focus areas:**
+- KPI monitoring
+- Time-intelligence analysis
+- Customer and segment views
+- Interactive navigation
+- Decision-ready reporting
 
-- **E-Commerce Sales - Advanced Interactive Dashboard**  
-  Executive-focused reporting with KPI tracking, time intelligence, segment analysis, and interactive business exploration.
+### 2. Superstore Sales Analytics Dashboard
+A multi-page sales analytics dashboard designed to evaluate business performance across revenue, profitability, pricing impact, customer behavior, and regional trends.
 
-- **Superstore Sales Analytics Dashboard**  
-  Multi-page dashboard for performance monitoring, pricing analysis, profitability review, customer behavior, and regional insights.
-
-### Additional Projects
-
-- **Cafe Sales Dashboard**  
-  A Power BI dashboard focused on KPI visibility, reporting structure, and accessible business performance tracking.
-
-- **E-Commerce Sales - Data Modeling & Analysis**  
-  A project centered on structured modeling, star-schema design, Power Query preparation, and reusable DAX foundations.
+**Focus areas:**
+- Executive KPI tracking
+- Pricing and discount analysis
+- Product profitability
+- Customer behavior insights
+- Regional performance analysis
 
 ---
 
 ## Website Sections
 
-- **Hero** — concise analytics-first positioning and call-to-action buttons
-- **About** — explains the bridge between operations experience and analytics work
-- **Experience** — reframes previous roles around workflow optimization, quality, delivery, and measurable business value
-- **Projects** — selected Power BI work with GitHub and live dashboard links
-- **Education** — academic background with real university logos
-- **Certifications** — issuer-based certification cards with direct certificate links
-- **Skills** — analytics, BI, modeling, reporting, and optimization capabilities
-- **Contact** — direct access to email, LinkedIn, GitHub, and CV
+The portfolio includes the following sections:
 
----
-
-## Tech Stack
-
-- **HTML5**
-- **CSS3**
-- **JavaScript**
-- **Google Fonts**
-- Static assets for:
-  - profile photo
-  - CV
-  - university logos
-  - certification logos
-  - project preview images
-
----
-
-## Key Strengths Reflected in the Site
-
-- clear positioning for a **Data Analyst / BI Analyst** path
-- practical business context behind dashboards and reporting
-- strong visual identity with a premium dark layout
-- real project links and certificate links
-- a narrative built around **business understanding + analytics execution**
-
----
-
-## Repository Structure
-
-```text
-portfolio/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-    ├── profile.png
-    ├── Mohamed_HagAli_CV.pdf
-    ├── aou-logo.png
-    ├── sust-logo.png
-    ├── google-icon.svg
-    ├── forage-logo.png
-    ├── deloitte-logo.jpeg
-    ├── harvard-logo.svg
-    ├── tharaa-logo.webp
-    └── project previews / supporting assets
-```
-
----
-
-## Getting Started
-
-### Run locally
-
-1. Clone or download the repository.
-2. Open `index.html` in your browser.
-
-No installation, build process, or package manager is required.
-
----
-
-## Main Links
-
-- **LinkedIn:** [mohamedhajali95](https://www.linkedin.com/in/mohamedhajali95/)
-- **Power BI Portfolio Repository:** [MohamedHajali95/powerbi-portfolio](https://github.com/MohamedHajali95/powerbi-portfolio)
-- **CV:** `assets/Mohamed_HagAli_CV.pdf`
+- **About**
+- **Experience**
+- **Education**
+- **Certifications**
+- **Projects / Portfolio**
+- **Contact**
 
 ---
 
 ## Certifications Included
 
+The portfolio showcases my key certifications, including:
+
 - Google Data Analytics Professional Certificate
-- Data Analysis and BI Training Camp — Tharaa Training
-- Data Labeling Online Job Simulation — Forage
-- Data Analytics Job Simulation — Deloitte via Forage
-- CS50x: Introduction to Computer Science — Harvard University
+- Data Analysis and BI Training Camp - Tharaa Training
+- Data Labeling Online Job Simulation - Forage
+- Deloitte Data Analytics Job Simulation
+- Harvard CS50x: Introduction to Computer Science
 
-Each certification card includes a direct **View Certificate** action.
-
----
-
-## Ideal Use of This Portfolio
-
-This portfolio is built for:
-
-- Data Analyst applications
-- BI Analyst applications
-- Reporting and dashboard-focused roles
-- Analytics roles where business operations understanding is valuable
+Each certificate is presented with its issuer identity and a direct **View Certificate** link.
 
 ---
 
-## Author
+## Tech Stack
 
-**Mohamed HagAli**  
-Data Analyst | Power BI | Business Reporting  
-Riyadh, Saudi Arabia
+This portfolio is built with:
+
+- HTML5
+- CSS3
+- JavaScript
+- GitHub Pages
 
 ---
 
-## License
+## Design Goals
 
-This project is intended for personal portfolio use.
+This portfolio was designed with the following goals in mind:
+
+- Clean and modern UI
+- Minimal and professional visual style
+- Strong focus on readability and clarity
+- Clear presentation of analytics work
+- Business-oriented positioning for recruiters and hiring managers
+
+---
+
+## Contact
+
+If you would like to connect regarding Data Analyst, BI Analyst, or reporting-focused opportunities:
+
+- **Portfolio:** https://mohamedhajali95.github.io/portfolio/
+- **LinkedIn:** https://www.linkedin.com/in/mohamedhajali95
+- **GitHub:** https://github.com/MohamedHajali95
+
+---
+
+## Notes
+
+This website is part of my professional transition into data analytics and is continuously improved to better reflect my work, skills, and project experience.
