@@ -1393,67 +1393,74 @@ img { display: block; max-width: 100%; }
 .timeline__location::before {
   content: '📍 ';
 }
+
 @media (max-width: 700px) {
   .edu-card {
     align-items: flex-start;
   }
+
   .edu-card__logo {
     width: 74px;
     height: 74px;
     padding: 10px;
   }
+
   .cert-card__logo {
     width: 52px;
     height: 52px;
   }
-   @media (max-width: 768px) {
-  .hero,
-  .hero-content,
-  .hero-text,
-  .hero-copy,
-  .hero-cta,
-  .hero-buttons {
+}
+
+@media (max-width: 768px) {
+  .hero__content {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
     text-align: center;
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    padding: 100px 24px 72px;
   }
 
-  .hero-title,
-  .hero h1 {
+  .hero__name,
+  .hero__title-wrapper,
+  .hero__desc,
+  .hero__actions,
+  .hero__badges {
     width: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .hero__name {
     max-width: 100%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .hero-description,
-  .hero-subtitle,
-  .hero-copy p,
-  .hero-text p {
-    width: 100%;
+  .hero__desc {
     max-width: 90%;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
   }
 
-  .hero-cta a,
-  .hero-buttons a,
-  .hero-cta .btn,
-  .hero-buttons .btn {
-    display: flex;
+  .hero__actions {
     align-items: center;
     justify-content: center;
-    width: min(100%, 560px);
+  }
+
+  .hero__actions .btn {
+    width: 100%;
+    max-width: 560px;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;
   }
-}
+
+  .hero__badges {
+    justify-content: center;
+  }
+
+  .hero__scroll-hint {
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
