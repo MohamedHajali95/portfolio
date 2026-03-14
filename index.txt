@@ -1,8 +1,0 @@
-Mohamed HagAli Portfolio Website
-
-Main file: index.html
-This portfolio highlights:
-- Professional profile and resume summary
-- Two featured Power BI projects
-- Live dashboard links
-- GitHub, LinkedIn, and CV links
