@@ -1711,3 +1711,158 @@ html[dir='rtl'] .certs__grid {
     right: -25px;
   }
 }
+
+
+/* -------- FINAL QA POLISH: THEME + RTL -------- */
+body[data-theme='light'] .hero,
+body[data-theme='light'] .skills,
+body[data-theme='light'] .projects,
+body[data-theme='light'] .contact {
+  background: linear-gradient(180deg, #f7fbff 0%, #f3f8fd 100%);
+}
+
+body[data-theme='light'] .about,
+body[data-theme='light'] .experience,
+body[data-theme='light'] .certifications,
+body[data-theme='light'] .footer {
+  background: linear-gradient(180deg, #eef4fa 0%, #eaf1f8 100%);
+}
+
+body[data-theme='light'] .hero__canvas {
+  opacity: 0.18;
+}
+
+body[data-theme='light'] .section__subtitle,
+body[data-theme='light'] .hero__desc,
+body[data-theme='light'] .about__body,
+body[data-theme='light'] .timeline__bullets li,
+body[data-theme='light'] .project-card__desc,
+body[data-theme='light'] .project-card__features li,
+body[data-theme='light'] .contact__text > p,
+body[data-theme='light'] .contact__item,
+body[data-theme='light'] .footer__copy,
+body[data-theme='light'] .footer__links a {
+  color: #52657f;
+}
+
+body[data-theme='light'] .timeline__content,
+body[data-theme='light'] .skill-card,
+body[data-theme='light'] .project-card,
+body[data-theme='light'] .cert-card,
+body[data-theme='light'] .edu-card,
+body[data-theme='light'] .contact__card,
+body[data-theme='light'] .stat-item,
+body[data-theme='light'] .about__link,
+body[data-theme='light'] .stag,
+body[data-theme='light'] .badge,
+body[data-theme='light'] .project-card__thumb-wrap,
+body[data-theme='light'] .btn--ghost,
+body[data-theme='light'] .nav-toggle {
+  background: rgba(255,255,255,0.86);
+  border-color: #d6e1ed;
+  box-shadow: 0 12px 32px rgba(15, 23, 42, 0.06);
+}
+
+body[data-theme='light'] .badge,
+body[data-theme='light'] .stag,
+body[data-theme='light'] .timeline__tags span,
+body[data-theme='light'] .project-card__stack span,
+body[data-theme='light'] .cert-card__badge,
+body[data-theme='light'] .cert-card__link {
+  background: rgba(15, 159, 152, 0.08);
+  border-color: rgba(15, 159, 152, 0.18);
+}
+
+body[data-theme='light'] .btn--ghost:hover,
+body[data-theme='light'] .about__link:hover,
+body[data-theme='light'] .stag:hover,
+body[data-theme='light'] .nav-toggle:hover {
+  background: rgba(15, 159, 152, 0.1);
+}
+
+body[data-theme='light'] .nav__mobile {
+  background: rgba(244,248,252,0.98);
+  border-top-color: #d9e4ef;
+}
+
+body[data-theme='light'] .nav__mobile a {
+  border-bottom-color: #d9e4ef;
+}
+
+body[data-theme='light'] .hero__eyebrow,
+body[data-theme='light'] .section__label,
+body[data-theme='light'] .cert-card__platform,
+body[data-theme='light'] .timeline__period {
+  color: #0f9f98;
+}
+
+html[dir='rtl'] .project-card,
+html[dir='rtl'] .timeline__content,
+html[dir='rtl'] .cert-card,
+html[dir='rtl'] .edu-card,
+html[dir='rtl'] .contact__item,
+html[dir='rtl'] .contact__roles {
+  text-align: right;
+}
+
+html[dir='rtl'] .project-card__header,
+html[dir='rtl'] .cert-card,
+html[dir='rtl'] .edu-card,
+html[dir='rtl'] .contact__card-header {
+  direction: rtl;
+}
+
+html[dir='rtl'] .contact__card-header {
+  justify-content: flex-start;
+}
+
+html[dir='rtl'] .contact__item svg,
+html[dir='rtl'] .contact__card-header .contact__avatar,
+html[dir='rtl'] .cert-card__logo,
+html[dir='rtl'] .edu-card__logo {
+  flex-shrink: 0;
+}
+
+html[dir='rtl'] .project-card__actions,
+html[dir='rtl'] .hero__actions,
+html[dir='rtl'] .about__links,
+html[dir='rtl'] .about__tags,
+html[dir='rtl'] .project-card__stack,
+html[dir='rtl'] .timeline__tags,
+html[dir='rtl'] .skills__tags,
+html[dir='rtl'] .hero__badges {
+  row-gap: 10px;
+}
+
+@media (max-width: 768px) {
+  body[data-theme='light'] .hero,
+  body[data-theme='light'] .skills,
+  body[data-theme='light'] .projects,
+  body[data-theme='light'] .contact,
+  body[data-theme='light'] .about,
+  body[data-theme='light'] .experience,
+  body[data-theme='light'] .certifications,
+  body[data-theme='light'] .footer {
+    background: #f7fbff;
+  }
+
+  html[dir='rtl'] .project-card,
+  html[dir='rtl'] .timeline__content,
+  html[dir='rtl'] .cert-card,
+  html[dir='rtl'] .edu-card,
+  html[dir='rtl'] .contact__item,
+  html[dir='rtl'] .contact__roles,
+  html[dir='rtl'] .nav__mobile {
+    text-align: right;
+  }
+
+  html[dir='rtl'] .hero__content,
+  html[dir='rtl'] .hero__eyebrow,
+  html[dir='rtl'] .hero__name,
+  html[dir='rtl'] .hero__title-wrapper,
+  html[dir='rtl'] .hero__desc,
+  html[dir='rtl'] .hero__actions,
+  html[dir='rtl'] .hero__badges {
+    text-align: center;
+  }
+}

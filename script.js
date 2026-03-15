@@ -132,6 +132,7 @@ const translations = {
 
       'projects.label': 'Portfolio',
       'projects.title': 'Data Projects',
+      'projects.subtitle': 'A selected set of Power BI projects focused on KPI reporting, performance analysis, business storytelling, and decision support.',
       'projects.date1': 'Power BI Dashboard',
       'projects.date2': 'Power BI Dashboard',
       'projects.date3': 'Supporting Project',
@@ -364,6 +365,7 @@ const translations = {
 
       'projects.label': 'الأعمال',
       'projects.title': 'مشاريع البيانات',
+      'projects.subtitle': 'مجموعة مختارة من مشاريع Power BI تركز على مؤشرات الأداء، وتحليل الأداء، وسرد القصة التجارية، ودعم اتخاذ القرار.',
       'projects.date1': 'لوحة Power BI',
       'projects.date2': 'لوحة Power BI',
       'projects.date3': 'مشروع داعم',
