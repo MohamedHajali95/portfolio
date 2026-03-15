@@ -1464,3 +1464,250 @@ img { display: block; max-width: 100%; }
     transform: translateX(-50%);
   }
 }
+
+/* -------- THEME + LANGUAGE TOGGLES -------- */
+.nav__controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: 24px;
+}
+
+.nav-toggle {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  min-width: 42px;
+  height: 42px;
+  padding: 0 14px;
+  border-radius: 999px;
+  border: 1px solid rgba(255,255,255,0.08);
+  background: rgba(255,255,255,0.04);
+  color: var(--text);
+  cursor: pointer;
+  transition: var(--transition);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+}
+
+.nav-toggle:hover {
+  border-color: rgba(0,229,195,0.35);
+  color: var(--accent);
+  background: rgba(0,229,195,0.08);
+}
+
+.nav-toggle__icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  line-height: 1;
+}
+
+.nav-toggle__icon--lang {
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.nav__mobile-controls {
+  display: none;
+  gap: 12px;
+  padding-top: 8px;
+}
+
+.nav-toggle--mobile {
+  flex: 1;
+}
+
+body[data-theme='light'] {
+  --bg: #f4f8fc;
+  --bg-2: #edf3f9;
+  --bg-card: #ffffff;
+  --bg-card-2: #e8eff8;
+  --accent: #0f9f98;
+  --accent-2: #b7791f;
+  --accent-3: #3158d4;
+  --text: #152236;
+  --text-muted: #52657f;
+  --border: #d5e0ee;
+  --border-2: #bfd0e4;
+}
+
+body[data-theme='light'] {
+  background: var(--bg);
+  color: var(--text);
+}
+
+body[data-theme='light'] .nav.scrolled {
+  background: rgba(244, 248, 252, 0.9);
+  border-bottom-color: rgba(191,208,228,0.9);
+}
+
+body[data-theme='light'] .section__title,
+body[data-theme='light'] .nav__logo,
+body[data-theme='light'] .hero__name,
+body[data-theme='light'] .skill-card__title,
+body[data-theme='light'] .timeline__role,
+body[data-theme='light'] .project-card__title,
+body[data-theme='light'] .edu-card__content h4,
+body[data-theme='light'] .cert-card__content h4,
+body[data-theme='light'] .contact__card-header strong {
+  color: #0f172a;
+}
+
+body[data-theme='light'] .timeline__content,
+body[data-theme='light'] .skill-card,
+body[data-theme='light'] .project-card,
+body[data-theme='light'] .cert-card,
+body[data-theme='light'] .edu-card,
+body[data-theme='light'] .contact__card,
+body[data-theme='light'] .stat-item,
+body[data-theme='light'] .about__link,
+body[data-theme='light'] .stag,
+body[data-theme='light'] .badge,
+body[data-theme='light'] .project-card__thumb-wrap,
+body[data-theme='light'] .btn--ghost,
+body[data-theme='light'] .nav-toggle {
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.05);
+}
+
+body[data-theme='light'] .hero__canvas {
+  opacity: 0.4;
+}
+
+html[lang='ar'] {
+  --font-display: 'Cairo', sans-serif;
+  --font-body: 'Cairo', sans-serif;
+  --font-mono: 'Cairo', sans-serif;
+}
+
+html[dir='rtl'] body {
+  text-align: right;
+}
+
+html[dir='rtl'] .nav__inner,
+html[dir='rtl'] .footer__inner,
+html[dir='rtl'] .about__grid,
+html[dir='rtl'] .contact__inner,
+html[dir='rtl'] .project-card__actions,
+html[dir='rtl'] .hero__actions,
+html[dir='rtl'] .about__links,
+html[dir='rtl'] .about__tags,
+html[dir='rtl'] .skills__tags,
+html[dir='rtl'] .timeline__meta,
+html[dir='rtl'] .timeline__tags,
+html[dir='rtl'] .project-card__stack,
+html[dir='rtl'] .hero__badges,
+html[dir='rtl'] .nav__controls,
+html[dir='rtl'] .nav__mobile-controls {
+  direction: rtl;
+}
+
+html[dir='rtl'] .hero__content,
+html[dir='rtl'] .about__text-col,
+html[dir='rtl'] .contact__text,
+html[dir='rtl'] .contact__card {
+  text-align: right;
+}
+
+html[dir='rtl'] .timeline {
+  padding-left: 0;
+  padding-right: 40px;
+}
+
+html[dir='rtl'] .timeline::before {
+  left: auto;
+  right: 8px;
+}
+
+html[dir='rtl'] .timeline__dot {
+  left: auto;
+  right: -37px;
+}
+
+html[dir='rtl'] .timeline__bullets li {
+  padding-left: 0;
+  padding-right: 20px;
+}
+
+html[dir='rtl'] .timeline__bullets li::before {
+  left: auto;
+  right: 0;
+  content: '◂';
+}
+
+html[dir='rtl'] .timeline__location::before {
+  content: '📍 ';
+}
+
+html[dir='rtl'] .contact__item {
+  text-align: right;
+}
+
+html[dir='rtl'] .hero__eyebrow,
+html[dir='rtl'] .hero__badges,
+html[dir='rtl'] .hero__actions,
+html[dir='rtl'] .about__links,
+html[dir='rtl'] .about__tags,
+html[dir='rtl'] .project-card__stack,
+html[dir='rtl'] .project-card__actions,
+html[dir='rtl'] .timeline__tags,
+html[dir='rtl'] .skills__tags {
+  justify-content: flex-start;
+}
+
+html[dir='rtl'] .about__quick-stats,
+html[dir='rtl'] .skills__grid,
+html[dir='rtl'] .projects__grid,
+html[dir='rtl'] .edu__grid,
+html[dir='rtl'] .certs__grid {
+  direction: rtl;
+}
+
+@media (max-width: 768px) {
+  .nav__controls {
+    margin-left: auto;
+    margin-right: 12px;
+    gap: 8px;
+  }
+
+  .nav-toggle {
+    min-width: 40px;
+    height: 40px;
+    padding: 0 12px;
+  }
+
+  .nav-toggle__text {
+    display: none;
+  }
+
+  .nav__mobile-controls {
+    display: flex;
+  }
+
+  .nav__mobile {
+    text-align: start;
+  }
+
+  html[dir='rtl'] .nav__mobile,
+  html[dir='rtl'] .hero__content,
+  html[dir='rtl'] .hero__eyebrow,
+  html[dir='rtl'] .hero__name,
+  html[dir='rtl'] .hero__title-wrapper,
+  html[dir='rtl'] .hero__desc,
+  html[dir='rtl'] .hero__actions,
+  html[dir='rtl'] .hero__badges {
+    text-align: center;
+    justify-content: center;
+  }
+
+  html[dir='rtl'] .timeline {
+    padding-right: 28px;
+  }
+
+  html[dir='rtl'] .timeline__dot {
+    right: -25px;
+  }
+}
